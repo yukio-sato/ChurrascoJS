@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Churrasco</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="motor.js" type="text/javascript"></script>
+</head>
+<body>
+    <table class="tb">
+        <tr class="txtFont tbEntity">
+          <th>Item</th>
+          <th>Por adulto</th>
+          <th>Por criança</th>
+        </tr>
+        <tr class="test txtFont tbValues">
+          <td>Carne</td>
+          <td>400g</td>
+          <td>200g</td>
+        </tr>
+        <tr class="test txtFont tbValues">
+            <td>Acompanhamentos</td>
+            <td>200g</td>
+            <td>200g</td>
+        </tr>
+        <tr class="test txtFont tbValues">
+            <td>Cerveja</td>
+            <td>2L</td>
+            <td>--</td>
+        </tr>
+        <tr class="test txtFont tbValues">
+            <td>Refrigerante</td>
+            <td>500ml</td>
+            <td>500ml</td>
+        </tr>
+        <tr class="test txtFont tbValues">
+            <td>Água</td>
+            <td>400ml</td>
+            <td>400ml</td>
+        </tr>
+    </table>
+    <br>
+    <form class="centered">
+        <div class="inputBox">
+            <br>
+            <h3 class="txtFont inputDescription">Adultos</h3><br>
+            <input type="number" class="txtFont inputDesign" id="adultoAl" name="adultoAl" value="0" min="0" max="99">
+            <label class="txtFont inputDescription" for="adultoAl">= Consomem bebidas alcoólicas</label><br>
+            <input type="number" class="txtFont inputDesign" id="adulto" name="adulto" value="0" min="0" max="99">
+            <label class="txtFont inputDescription" for="adulto">= Não Consomem bebidas alcoólicas</label><hr>
+            <br>
+            <h3 class="txtFont inputDescription">Crianças</h3><br>
+            <input type="number" class="txtFont inputDesign" id="childing" name="childing" value="0" min="0" max="99">
+            <label class="txtFont inputDescription">= Quantidade de Crianças</label><hr>
+        </div>
+        <br>
+        <div class="inputBox">
+            <h3 class="txtFont inputDescription">Resultado</h3><br>
+            <Label class="txtFont inputDescription" id="meat" name="meat">Carne: </Label><br>
+            <Label class="txtFont inputDescription" id="company" name="company">Acompanhamentos: </Label><br>
+            <Label class="txtFont inputDescription" id="bear" name="bear">Cerveja: </Label><br>
+            <Label class="txtFont inputDescription" id="refri" name="refri">Refrigerante: </Label><br>
+            <Label class="txtFont inputDescription" id="h2o" name="h2o">Água: </Label><br>
+            <hr>
+        </div>
+    </form>
+</body>
+</html>
